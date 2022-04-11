@@ -6,10 +6,10 @@ Me and my teammate Muhammad Hreden have done this work based on legacy OpenGL, s
 
 We included textures, models, lighting and a simple logic for moving to seem rather realistic. Before drawing anything, we created a general class `Draw` that has a set of functions which are responsible for drawing all important primitive shapes that any complix object may made from. These functions accept position, lengths, lighting normal direction, texture and texture mapping as parameters. This is very helpful during drawing the environment as a kind of abstraction. Repeatedly drawn objects were also arranged in functions so that they become easier to be drawn.
 
-## What was drawn?
+## What was drawn? 
 The mall consists of two floors and two other underground floors, with a small garden and a street arround.
 The first and second floors contain clothes markets, whereas, the first basement contain resturants and the second one is a car parking.
-You can move between the floors in three ways:
+You can move between the floors in three ways :
 - Normal stairs: your height is automatically fixed while moving on them.
 - Electric stairs: for carrying up and down.
 - Elevators: by standing inside and press buttons.
